@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Nabila — Our Memories</title>
+  <meta name="description" content="Galeri kenangan romantis untuk Nabila." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <canvas id="stars"></canvas>
+  <header class="hero">
+    <div class="hero-content">
+      <p class="eyebrow">OUR LITTLE UNIVERSE</p>
+      <h1>Nabila</h1>
+      <p class="subtitle">Tempat kecil untuk menyimpan semua cerita yang terlalu indah untuk dilupakan.</p>
+      <a class="btn" href="#memories">Lihat Kenangan</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="intro section">
+      <p class="eyebrow">FOR MY FAVORITE PERSON</p>
+      <h2>Untuk kamu, yang selalu terasa seperti rumah.</h2>
+      <p>Terima kasih sudah hadir di banyak versi hariku—yang ramai, yang sepi, yang penuh tawa, dan yang kadang tidak mudah. Halaman ini dibuat supaya setiap momen kecil kita punya tempat untuk pulang.</p>
+    </section>
+
+    <section id="memories" class="section">
+      <div class="section-head">
+        <div><p class="eyebrow">MEMORIES</p><h2>Potongan cerita kita</h2></div>
+        <p>Galeri ini siap diisi dengan foto-foto kenangan kalian.</p>
+      </div>
+      <div class="gallery">
+        <figure class="card tall"><div class="placeholder">Foto 01</div><figcaption>Hari yang sederhana, tapi rasanya lengkap.</figcaption></figure>
+        <figure class="card"><div class="placeholder">Foto 02</div><figcaption>Tawa yang ingin terus kuingat.</figcaption></figure>
+        <figure class="card"><div class="placeholder">Foto 03</div><figcaption>Kita, tanpa perlu banyak alasan.</figcaption></figure>
+        <figure class="card wide"><div class="placeholder">Foto 04</div><figcaption>Beberapa kenangan memang pantas disimpan selamanya.</figcaption></figure>
+        <figure class="card"><div class="placeholder">Foto 05</div><figcaption>Tempat biasa, bersama orang yang luar biasa.</figcaption></figure>
+        <figure class="card tall"><div class="placeholder">Foto 06</div><figcaption>Semoga kita selalu punya cerita baru untuk ditambahkan di sini.</figcaption></figure>
+      </div>
+    </section>
+
+    <section class="letter section">
+      <div class="letter-card">
+        <p class="eyebrow">A NOTE FOR YOU</p>
+        <h2>Kalau suatu hari kita membuka halaman ini lagi...</h2>
+        <p>Semoga kita masih bisa tersenyum melihat betapa banyak hal yang sudah kita lewati. Aku tidak tahu seperti apa semua hari di depan nanti, tapi aku tahu satu hal: aku bersyukur pernah dan masih bisa membuat begitu banyak kenangan bersamamu.</p>
+        <p class="signature">— always, for you ♡</p>
+      </div>
+    </section>
+  </main>
+
+  <button id="musicToggle" class="music" aria-label="Putar musik">♫</button>
+  <audio id="bgMusic" loop><source src="assets/music.mp3" type="audio/mpeg"></audio>
+  <footer><p>Made with memories, not just pixels.</p></footer>
+  <script src="script.js"></script>
+</body>
+</html>
